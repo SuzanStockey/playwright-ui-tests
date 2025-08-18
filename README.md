@@ -1,5 +1,7 @@
 # Playwright UI Tests (TodoMVC)
 
+![CI](https://github.com/AvramenkoDmitry/playwright-ui-tests/actions/workflows/ci.yml/badge.svg)
+
 A demo set of UI tests using [Playwright](https://playwright.dev/) for the [TodoMVC app](https://demo.playwright.dev/todomvc/).
 
 ## ✅ Test scenarios
@@ -30,3 +32,13 @@ npm test
 # 4) Open HTML report
 npm run report
 ```
+
+## 📸 Example run
+
+Console run:  
+![Console run](docs/console-run.png)
+
+## 📊 HTML Report
+
+Sample HTML report:  
+![Report screenshot](docs/report-screenshot.png)
