@@ -1,0 +1,16 @@
+{
+  "name": "playwright-ui-tests",
+  "version": "1.0.0",
+  "description": "Demo UI tests for TodoMVC (Playwright).",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install --with-deps"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0"
+  }
+}
